@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+  code:
+    label: Skype Name ID
+    placeholder: skypename
+  imageSize:
+    label: Skype Button ImageSize (10,12,14,16,24 or 32 only)
+    placeholder: 32
