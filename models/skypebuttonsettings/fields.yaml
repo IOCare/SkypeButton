@@ -7,5 +7,13 @@ fields:
     label: Skype Name ID
     placeholder: skypename
   imageSize:
-    label: Skype Button ImageSize (10,12,14,16,24 or 32 only)
-    placeholder: 32
+    label: Skype Button ImageSize
+    placeholder: Select Size
+    type: dropdown
+    options:
+        10: 10
+        12: 12
+        14: 14
+        16: 16
+        24: 24
+        32: 32

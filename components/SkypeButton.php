@@ -27,12 +27,12 @@ class SkypeButton extends ComponentBase
 			],
 			'imageSize' => [
 				'title'             => 'ImageSize',
-				'description'       => 'Skype Button Image size only enter 10,12,14,16,24 or 32 only',
-				'default'           => '32',
-				'type'              => 'string',
-				'validationPattern' => '^[0-9]*$',
-				'validationMessage' => 'Invalid Image Size',
-				'placeholder'       => '32'
+				'description'       => 'Skype Button Image size',
+				'default'           => '24',
+				'type'				=>'dropdown',
+				'options'			=>['10'=>'10', '12'=>'12', '14'=>'14', '16'=>'16', '24'=>'24', '32'=>'32'],
+				'validationMessage' => 'Invalid button Size',
+				'placeholder'       => 'Select button Size'
 			]
 		];
 	}
@@ -44,5 +44,9 @@ class SkypeButton extends ComponentBase
 		$this->page['imageSize'] = $settings->imageSize;
     }
 
+	public function onRun()
+	{
+		//$this->addJs('http://www.skypeassets.com/i/scom/js/skype-uri.js');
+	}
 
 }
