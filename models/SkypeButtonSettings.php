@@ -1,4 +1,4 @@
-<?php namespace Iocare\SkypeButton\Models;
+<?php namespace iocare\SkypeButton\Models;
 
 use Model;
 

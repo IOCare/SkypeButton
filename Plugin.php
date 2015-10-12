@@ -1,4 +1,4 @@
-<?php namespace Iocare\SkypeButton;
+<?php namespace iocare\SkypeButton;
 
 use System\Classes\PluginBase;
 

@@ -1,4 +1,4 @@
-<?php namespace Iocare\SkypeButton\Components;
+<?php namespace iocare\SkypeButton\Components;
 
 use Cms\Classes\ComponentBase;
 use iocare\SkypeButton\Models\SkypeButtonSettings;
