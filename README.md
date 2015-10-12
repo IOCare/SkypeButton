@@ -1,6 +1,12 @@
 # SkypeButton
 SkypeButton for October CMS
 
+![alt text](https://github.com/IOCare/SkypeButton/blob/master/skypename.png "SkypeButton for October CMS")
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
 Install
 Add SkypeButton plugin from backend Update>Install Plugin
 Search for SkypeButton
